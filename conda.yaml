@@ -1,0 +1,11 @@
+name: homework-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mlflow
+      - scikit-learn
+      - pandas

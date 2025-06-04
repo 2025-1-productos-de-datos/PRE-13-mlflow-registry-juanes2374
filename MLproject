@@ -1,0 +1,14 @@
+name: homework
+
+conda_env: conda.yaml
+
+entry_points:
+  elasticnet:
+    parameters: {}
+    command: >
+      python -m homework --model elasticnet
+
+  knn:
+    parameters: {}
+    command: >
+      python -m homework --model knn
